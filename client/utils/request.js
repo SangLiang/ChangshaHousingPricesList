@@ -1,7 +1,6 @@
 /**
  * 请求类
  */
-
 const util = require("./util")
 const server = require("../config/server")
 

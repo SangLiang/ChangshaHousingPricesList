@@ -3,7 +3,7 @@
  */
 
 module.exports = {
-    'host': 'http://192.168.36.41:3000',
+    'host': 'http://127.0.0.1:3000',
     // 'host': 'https://applet.aiqitu.cn',
     // 'host':'https://api.github.com',
     'appId': 'wxa1653f707a624aa4',
