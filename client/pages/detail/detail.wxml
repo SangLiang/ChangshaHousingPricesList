@@ -1,0 +1,10 @@
+
+<!--pages/detail/detail.wxml-->
+<view class="container">
+  <view class="itemWrap" wx:for="{{dataList}}">
+    <text class="title">{{item.name}}</text>
+    <text class="detail">编号：{{item.id}}</text>
+    <text class="detail font-blue">{{item.money}}</text>
+    <text class="detail">{{item.position}}</text>
+  </view>
+</view>

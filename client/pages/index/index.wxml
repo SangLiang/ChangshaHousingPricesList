@@ -1,0 +1,11 @@
+
+<!--index.wxml-->
+<view class="container">
+  <text class="title">长沙房价表</text>
+  <view class="choise-position-titile">
+    <text>请选择区域</text>
+  </view>
+  <view class="choise-area" wx:for="{{array}}">
+    <text class="list" data-itemName="{{item.position}}" bindtap="bindViewTap"> {{item.name}}</text>
+  </view>
+</view>

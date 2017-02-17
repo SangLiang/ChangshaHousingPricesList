@@ -1,0 +1,47 @@
+/**index.wxss**/
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 64rpx;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #fff;
+  background: #333;
+  width:100%;
+  height: 120rpx;
+  line-height: 120rpx;
+}
+
+.choise-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height:100rpx;
+  width:100%;
+}
+
+.choise-area .list{
+  background: #aaa;
+  width:100%;
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.title {
+  text-align: center;
+}

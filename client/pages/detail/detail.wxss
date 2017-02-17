@@ -1,0 +1,23 @@
+/* pages/detail/detail.wxss */
+
+.itemWrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #add3e9;
+    width:100%;
+    margin-top:20rpx;
+    padding-bottom: 20rpx;
+}
+
+.itemWrap .title{
+    font-weight: bold;
+}
+
+.itemWrap .detail{
+    font-size: 26rpx;
+}
+
+.font-blue{
+    color: #4c6e82;
+}
